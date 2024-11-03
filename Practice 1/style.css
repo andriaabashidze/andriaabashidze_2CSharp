@@ -1,23 +1,45 @@
-  a:link {
-    color: blue;
-    background-color: transparent;
-    text-decoration: none;
+  body{
+    background-color: rgb(223, 195, 232);
+  }
+  h1{
+    font-family:Verdana;
+  }
+  hr{
+    border:1px solid black;
+    border-style:dotted;
   }
   
-  a:visited {
-    color:blueviolet;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: orange;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  a:active {
-    color: cyan;
-    background-color: transparent;
-    text-decoration: underline;
-  }
+li a{
+  font-size:large;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  float:left;
+}
+
+li a:hover {
+  font-size:larger;
+  background-color: rgb(119, 20, 20);
+  color:white;
+}
+table{
+  background-color: antiquewhite;
+}
+table,th,td{
+border:1px solid black;
+border-collapse: collapse;
+padding:3px;
+text-align: center;
+}
+/*tr:nth-child(even) {
+  background-color: rgb(219, 153, 208);
+}
+tr:nth-child(odd) {
+  background-color: rgb(208, 143, 224);
+}
+
+th{
+  background-color: rgb(156, 120, 205);
+}*/
